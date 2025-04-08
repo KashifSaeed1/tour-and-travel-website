@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
+import BlogsDetails from "./pages/BlogsDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="blogs" element={<Blogs />} />
+            <Route path="blogs/:id" element={<BlogsDetails />} />
           </Route>
         </Routes>
       </BrowserRouter>
