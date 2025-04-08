@@ -7,60 +7,64 @@ import Img4 from "../../assets/places/place4.jpg";
 import Img5 from "../../assets/places/place5.jpg";
 import Img6 from "../../assets/places/place6.jpg";
 
+
 const PlacesData = [
   {
     img: Img1,
-    title: "Boat",
-    location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    price: 6700,
-    type: "Cultural Relax",
+    title: "Eiffel Tower",
+    location: "France",
+    description:
+      "An iconic wrought-iron lattice tower in Paris, known for its breathtaking views of the city.",
+    price: 8500,
+    type: "Romantic Getaway",
   },
   {
     img: Img2,
-    title: "Taj Mahal",
-    location: "India",
+    title: "Great Wall",
+    location: "China",
     description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    price: 6700,
-    type: "Cultural Relax",
+      "Ancient series of walls and fortifications, totaling more than 13,000 miles in length.",
+    price: 7900,
+    type: "Historic Adventure",
   },
   {
     img: Img3,
-    title: "Underwater",
-    location: "US",
+    title: "Santorini",
+    location: "Greece",
     description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    price: 6200,
-    type: "Cultural Relax",
+      "Famous for whitewashed houses with blue domes and spectacular sunsets over the Aegean Sea.",
+    price: 9100,
+    type: "Scenic Relaxation",
   },
   {
     img: Img4,
-    title: "Sydney",
-    location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    price: 6700,
-    type: "Cultural Relax",
+    title: "Machu Picchu",
+    location: "Peru",
+    description:
+      "15th-century Inca citadel set high in the Andes Mountains, surrounded by lush cloud forest.",
+    price: 8800,
+    type: "Adventure Trek",
   },
   {
     img: Img5,
-    title: "Los Angeles",
-    location: "United states",
+    title: "Niagara Falls",
+    location: "Canada",
     description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    price: 6700,
-    type: "Cultural Relax",
+      "Majestic waterfalls that straddle the border between Canada and the USA.",
+    price: 7300,
+    type: "Nature Wonder",
   },
   {
     img: Img6,
-    title: "Los Vegas",
-    location: "California",
+    title: "Tokyo Disneyland",
+    location: "Japan",
     description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    price: 6200,
-    type: "Cultural Relax",
+      "A magical kingdom full of attractions and beloved characters, perfect for families and kids.",
+    price: 9400,
+    type: "Family Fun",
   },
 ];
+
 
 const Places = ({ handleOrderPopup }) => {
   return (

@@ -5,22 +5,23 @@ const testimonialData = [
   {
     id: 1,
     name: "Samuel",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "TravelGo made my dream vacation a reality! From smooth bookings to unforgettable experiences, everything was top-notch.",
     img: "https://picsum.photos/101/101",
   },
   {
-    id: 1,
+    id: 2,
     name: "John Doe",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "I explored places I never thought I could afford. TravelGo’s deals are unbeatable, and their support is amazing!",
     img: "https://picsum.photos/102/102",
   },
   {
-    id: 1,
-    name: "Smith",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    id: 3,
+    name: "Emily Smith",
+    text: "From exotic beaches to cultural gems, TravelGo curated a journey that I’ll cherish forever. Highly recommended!",
     img: "https://picsum.photos/103/103",
   },
 ];
+
 
 const Testimonial = () => {
   var settings = {
@@ -70,12 +71,13 @@ const Testimonial = () => {
             <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
               Testimonial
             </p>
-            <h1 className="text-3xl font-bold">Testimonial</h1>
+            <h1 className="text-3xl font-bold">What Our Travelers Say</h1>
             <p className="text-xs text-gray-400">
               {" "}
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero
-              nesciunt explicabo a! Laborum delectus aliquam labore, earum rerum
-              quam! Nulla?
+              Hear directly from our happy travelers! Discover real stories,
+              genuine feedback, and unforgettable experiences shared by those
+              who’ve explored the world with us. Their words inspire us to keep
+              creating amazing journeys.
             </p>
           </div>
           {/* testimonial section */}
