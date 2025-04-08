@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
+import Blogs from "./pages/Blogs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -22,6 +23,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
+            <Route path="blogs" element={<Blogs />} />
           </Route>
         </Routes>
       </BrowserRouter>
