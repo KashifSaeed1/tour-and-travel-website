@@ -56,8 +56,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-10 backdrop-blur-sm bg-white/10 p-6 rounded-xl">
           {/* Branding */}
           <div>
-            <h1 className="flex items-center gap-3 text-2xl font-bold">
-              <img src={FooterLogo} alt="logo" className="max-h-[50px]" />
+            <h1 className="flex items-center gap-3 text-2xl font-bold text-primary">
+              <img src={FooterLogo} alt="logo" className="max-h-[50px] " />
               TravelloGo
             </h1>
             <p className="mt-3 text-sm">
@@ -102,13 +102,13 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h2 className="text-xl font-semibold mb-4">Quick Links</h2>
+            <h2 className="text-xl font-semibold mb-4 text-primary">Quick Links</h2>
             <ul className="flex flex-col gap-3 text-sm">
               {FooterLinks.map((link, i) => (
                 <li
                   key={i}
                   className="hover:text-primary hover:translate-x-1 duration-200"
-                >
+                >got 
                     <Link
                       to={link.link}
                       onClick={() => window.scrollTo(0, 0)}
@@ -127,7 +127,7 @@ const Footer = () => {
 
           {/* Travel Resources */}
           <div>
-            <h2 className="text-xl font-semibold mb-4">Travel Resources</h2>
+            <h2 className="text-xl font-semibold mb-4 text-primary">Travel Resources</h2>
             {/* <ul className="flex flex-col gap-3 text-sm">
               <li className="hover:text-primary duration-200 cursor-pointer">
                 Travel Guides
@@ -174,7 +174,7 @@ const Footer = () => {
 
           {/* Newsletter */}
           <div>
-            <h2 className="text-xl font-semibold mb-4">Stay Connected</h2>
+            <h2 className="text-xl font-semibold mb-4 text-primary">Stay Connected</h2>
             <p className="text-sm mb-3">
               Subscribe to our newsletter for updates and deals.
             </p>
@@ -191,7 +191,7 @@ const Footer = () => {
 
         <div className="text-center mt-10 text-sm border-t border-white/30 pt-6">
           © 2024 All rights reserved | Made with ❤️ by{" "}
-          <strong>Kashif Saeed</strong>
+          <strong className="text-primary">Kashif Saeed</strong>
         </div>
       </div>
     </div>
