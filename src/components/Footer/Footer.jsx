@@ -109,9 +109,17 @@ const Footer = () => {
                   key={i}
                   className="hover:text-primary hover:translate-x-1 duration-200"
                 >
-                  <Link to={link.link} onClick={() => window.scrollTo(0, 0)}>
-                    {link.title}
-                  </Link>
+                    <Link
+                      to={link.link}
+                      onClick={() => window.scrollTo(0, 0)}
+                      className="relative inline-block hover:text-primary duration-200 
+                                after:content-[''] after:absolute after:left-0 
+                                after:bottom-0 after:w-0 after:h-[2px] 
+                                after:bg-primary after:duration-200 
+                                hover:after:w-full"
+                    >
+                      {link.title}
+                    </Link>
                 </li>
               ))}
             </ul>
