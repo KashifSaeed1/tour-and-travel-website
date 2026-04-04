@@ -128,7 +128,7 @@ const Footer = () => {
           {/* Travel Resources */}
           <div>
             <h2 className="text-xl font-semibold mb-4">Travel Resources</h2>
-            <ul className="flex flex-col gap-3 text-sm">
+            {/* <ul className="flex flex-col gap-3 text-sm">
               <li className="hover:text-primary duration-200 cursor-pointer">
                 Travel Guides
               </li>
@@ -147,6 +147,28 @@ const Footer = () => {
               <li className="hover:text-primary duration-200 cursor-pointer">
                 Contact Support
               </li>
+            </ul> */}
+         <ul className="flex flex-col gap-3 text-sm">
+              {[
+                "Travel Guides",
+                "Booking Information",
+                "Frequently Asked Questions",
+                "Privacy Policy",
+                "Terms & Conditions",
+                "Contact Support"
+              ].map((item, i) => (
+                <li key={i} className="cursor-pointer">
+                  <span
+                    className="relative inline-block hover:text-primary duration-200
+                              after:content-[''] after:absolute after:left-0
+                              after:bottom-0 after:w-0 after:h-[2px]
+                              after:bg-primary after:duration-200
+                              hover:after:w-full"
+                  >
+                    {item}
+                  </span>
+                </li>
+              ))}
             </ul>
           </div>
 
