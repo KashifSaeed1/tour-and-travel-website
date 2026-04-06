@@ -68,7 +68,7 @@ const Testimonial = () => {
         <div className="container">
           {/* Header section */}
           <div className="text-center mb-20 max-w-[400px] mx-auto">
-            <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
+            <p className="text-x bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
               Testimonial
             </p>
             <h1 className="text-3xl font-bold">What Our Travelers Say</h1>
