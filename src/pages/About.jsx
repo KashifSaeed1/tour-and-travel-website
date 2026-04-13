@@ -1,6 +1,7 @@
 import React from "react";
 import BlogsComp from "../components/Blogs/BlogsComp";
 import Location from "../components/Location/Location";
+import ScrollToTopButton from "../components/ScrollToTopButton/ScrollToTopButton";
 
 const About = () => {
   return (
@@ -30,6 +31,7 @@ const About = () => {
       </div>
       <Location />
       <BlogsComp />
+      <ScrollToTopButton />
     </>
   );
 };
